@@ -1,0 +1,82 @@
+/* #region GENERALES */
+*{
+    margin: 0;
+    padding: 50;
+}
+body {
+    /*VARIABLES DE CSS*/
+    --color-principal: #FFB511;
+    --color-acento: #E14141;
+    --color-texto-claro: #F8F8FF;
+}
+/* #endregion */
+/* #region BARRA DE NAVEGACIÓN */
+nav {
+    background-color: var(--color-principal);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-texto-claro-);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    /* LOGO Y CONTACTO */
+.logo{
+    width: 100px;
+    padding: 25px;
+}
+.contacto{
+    text-transform: lowercase;
+    color: var(--color-texto-claro);
+    height: 150px;
+    margin: 25px;
+}
+    /* MI CUENTA Y MI CARRITO */
+.micuenta{
+    padding: 0px 20px;
+}
+.cuentaycarro{
+    justify-content: right;
+}
+.carrito {
+    height: 20px;
+    padding-right: 25px;
+}
+    /* ENLACES */
+.lista-nav{
+    display: flex;
+    list-style: none;
+    height: 30px;
+}
+.enlace-nav{
+    color:white;
+    padding: 0% 70px;
+    text-decoration: none;
+}
+.grupo_lista{
+    justify-content:center;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: var(--color-acento);
+}
+/* #endregion */
+    /* #region CABECERA */
+main {
+   text-align: center;
+   padding: 20px 0px;
+   background-color: beige;
+   font-size: larger;
+}
+.portada {
+    width: 320px;
+    padding-top: 20px;
+}
+/* #endregion CABECERA */
+/******PIE DE PÁGINA******/
+footer {
+    background-color: var(--color-principal);
+    color: white;
+    text-align: left;
+    padding: 18px 0px;
+}
